@@ -13,12 +13,12 @@ rendering functions
 making games
 testing shit out
 
-- How to use this damn API (isn't that bad)
+# How to use this damn API (isn't that bad)
 
-There is a class that is called "APIMain"
+### There is a class that is called "APIMain"
 APIMain has an attribute called "carga" that contains all the programs that need to be drawn and updated each frame
 
-For you to start using this API
+### For you to start using this API
 You need to create your own class that extends "Program", that is gonna be your main class for this application
 A "Program" has 2 main methods, 1 that returns what needs to be drawn, and 1 to update the game each frame if needed
 
@@ -40,5 +40,9 @@ Onse you have a class with all this methods, you can add them to the array of dr
 
 For that you gotta go to the class called Main, create an instance of your program and put it in the params of "PanelCustom.getInstance().getApi().addProgram(/* your app here */);"
 or as seen in the examples in the code
+
+
+
+
 
 If you read this a couple of times and follow along in the code while doing so, you might be able to use this API, it isn't finished and I don't like using it, but for someone that doesn't wanna do the whole engine from scratch, this can be fine for simple test and for fun
