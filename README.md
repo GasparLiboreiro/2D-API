@@ -5,13 +5,13 @@ This API is only for personal use as a tool, it isn't finish'd and it isn't frie
 But it gets me away when I want to test something visually involving 2D space
 
 This API contains support for:
-Rendering of any hollow 2D shape made out of lines
-Gameloop and update by delta time system
+- Rendering of any hollow 2D shape made out of lines
+- Gameloop and update by delta time system
 
 Some examples of uses for this API could be
-rendering functions
-making games
-testing shit out
+- rendering functions
+- making games
+- testing shit out
 
 # How to use this damn API (isn't that bad)
 
@@ -28,13 +28,13 @@ A Drawable is a class that has the components needed to be drawn to the screen
 The things you wanna show to the screen need to be in that array of drawables, so the things you wanna show need to be of type Drawable
 
 The abstract class Drawable has 3 main methods
--getVertices: returns an array of 2d vectors, being the vertices of your shape
--getRelaciones: Returns an array of int matrices ( ArrayList<int[]&gt; ), this sounds complex but hear me out
+- getVertices: returns an array of 2d vectors, being the vertices of your shape
+- getRelaciones: Returns an array of int matrices ( ArrayList<int[]&gt; ), this sounds complex but hear me out
                 Each index of the array represents a line, this line has both points in vertecies from the array of vertices (getVertices)
                 So position 0 of the array may return something like this: [2,6] which whuld be a matrix of ints
                 This matrix of length 2 has the index in the array of vertices of both points of the line
                 So this way you got an array of vertices and an array of relationships between this vertices
--getColor: Returns the color of the object in a ColorCl class (this class extends Color, the only feature that ColorCl adds is being able to clone the object)
+- getColor: Returns the color of the object in a ColorCl class (this class extends Color, the only feature that ColorCl adds is being able to clone the object)
 
 Onse you have a class with all this methods, you can add them to the array of drawables in your app, and then add your app yo the APIMain load
 
