@@ -46,3 +46,8 @@ or as seen in the examples in the code
 
 
 If you read this a couple of times and follow along in the code while doing so, you might be able to use this API, it isn't finished and I don't like using it, but for someone that doesn't wanna do the whole engine from scratch, this can be fine for simple test and for fun
+
+<img src="https://github.com/GasparLiboreiro/2D-API/blob/main/imgs/funcion.png" alt="funciones" width="40%"/>
+<img src="https://github.com/GasparLiboreiro/2D-API/blob/main/imgs/mandala%20(5).png" alt="mandala1" width="40%"/>
+<img src="https://github.com/GasparLiboreiro/2D-API/blob/main/imgs/mandala%20(x).png" alt="mandala2" width="40%"/>
+<img src="https://github.com/GasparLiboreiro/2D-API/blob/main/imgs/lineas.png" alt="lineas" width="40%"/>
